@@ -39,20 +39,17 @@
 .header__address {
     display: flex;
     flex-direction: column;
+    text-underline-offset: 4px;
 }
 
 address {
-    justify-self: end; 
+    justify-self: end;
     width: 240px;
     padding-bottom: 4px;
     color: #000;
     font: inherit;
     font-size: 18px;
     line-height: 135%;
-}
-
-.header__address {
-    text-underline-offset: 4px;
 }
 
 .cover {
@@ -116,7 +113,7 @@ address {
     align-items: center;
     padding: 106px 0px 0px 0px;
     font-size: 22px;
-    font-style: normal; 
+    font-style: normal;
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 18.4px;
@@ -155,7 +152,7 @@ address {
     text-transform: uppercase;
 }
 
-.lots__card-list{
+.lots__card-list {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
@@ -170,7 +167,6 @@ address {
 }
 
 .card {
-    position: relative;
     position: relative;
     z-index: 0;
     display: flex;
